@@ -1,0 +1,20 @@
+{
+  "name": "Pasapalabra",
+  "short_name": "Pasapalabra",
+  "description": "Complete web system for managing and visualizing Pasapalabra games in real-time",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["games", "education", "productivity"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+} 

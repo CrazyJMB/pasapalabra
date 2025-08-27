@@ -1,0 +1,130 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "navigation": {
+    "admin": "Administración",
+    "visualizer": "Visualizador",
+    "home": "Inicio"
+  },
+  "admin": {
+    "title": "Pasapalabra",
+    "subtitle": "Gestiona tus juegos",
+    "games": "Juegos",
+    "newGame": "Nuevo Juego",
+    "currentGame": "Juego Actual",
+    "noGames": "No hay juegos creados",
+    "noGamesSubtitle": "Crea tu primer juego para comenzar",
+    "loadingGames": "Cargando juegos...",
+    "noGameSelected": "No hay juego seleccionado",
+    "noGameSelectedSubtitle": "Selecciona un juego de la lista",
+    "howItWorks": "¿Cómo funciona?",
+    "openVisualizer": "Abrir Visualizador"
+  },
+  "game": {
+    "status": {
+      "active": "Activo",
+      "paused": "Pausado",
+      "finished": "Finalizado"
+    },
+    "actions": {
+      "start": "Iniciar",
+      "pause": "Pausar",
+      "continue": "Continuar",
+      "finish": "Finalizar",
+      "openVisualizer": "Abrir Visualizador"
+    },
+    "info": {
+      "time": "Tiempo",
+      "finalScore": "Puntuación Final",
+      "score": "Puntuación"
+    },
+    "control": {
+      "title": "Control del Juego",
+      "timeRemaining": "Tiempo Restante",
+      "status": "Estado",
+      "noGameSelected": "No hay juego seleccionado",
+      "noGameSelectedSubtitle": "Selecciona un juego para controlar",
+      "alphabetRing": "Anillo Alfabético",
+      "currentLetter": "Letra Actual",
+      "correct": "Correcta",
+      "incorrect": "Incorrecta",
+      "pasapalabra": "Pasapalabra",
+      "nextLetterHelp": "La siguiente letra avanza en orden circular."
+    }
+  },
+  "modal": {
+    "createGame": {
+      "title": "Crear Nuevo Juego",
+      "name": "Nombre del Juego",
+      "namePlaceholder": "Ej: Juego de Julia",
+      "timeLimit": "Límite de Tiempo (segundos)",
+      "timeLimitPlaceholder": "300",
+      "timeLimitHelp": "Mínimo: 60s, Máximo: 3600s (1 hora)",
+      "scoringSystem": "Sistema de Puntuación",
+      "correct": "Correcta",
+      "incorrect": "Incorrecta",
+      "pasapalabra": "Pasapalabra",
+      "create": "Crear Juego",
+      "creating": "Creando..."
+    }
+  },
+  "info": {
+    "title": "¿Cómo funciona Pasapalabra?",
+    "objective": "Pasapalabra es un juego de palabras donde debes responder preguntas que empiecen con cada letra del alfabeto español.",
+    "gameFlow": {
+      "title": "Flujo del Juego:",
+      "step1": "1. Crea un nuevo juego desde el panel de administración",
+      "step2": "2. Configura el nombre y límite de tiempo",
+      "step3": "3. Haz clic en 'Iniciar' para comenzar",
+      "step4": "4. Haz clic en cualquier letra del anillo alfabético",
+      "step5": "5. Marca la respuesta como correcta, incorrecta o pasapalabra",
+      "step6": "6. El juego termina cuando se completa el alfabeto o se agota el tiempo"
+    },
+    "letterStates": {
+      "title": "Estados de las Letras:",
+      "correct": "Correcta: Puntos positivos",
+      "incorrect": "Incorrecta: Puntos negativos",
+      "pasapalabra": "Pasapalabra: Sin puntos"
+    },
+    "features": {
+      "title": "Características Principales:",
+      "scoring": "Sistema de puntuación configurable",
+      "timer": "Temporizador personalizable",
+      "sync": "Sincronización en tiempo real entre pestañas",
+      "responsive": "Diseño responsive para todos los dispositivos",
+      "persistence": "Persistencia de datos entre sesiones"
+    },
+    "usage": {
+      "title": "Consejos de Uso:",
+      "streaming": "Para streaming: Abre el visualizador y captura la ventana",
+      "sync": "Sincronización: Los cambios se reflejan automáticamente en todas las pestañas abiertas del mismo navegador"
+    }
+  },
+      "validation": {
+      "gameName": {
+        "required": "El nombre del juego es obligatorio",
+        "minLength": "El nombre debe tener al menos 3 caracteres",
+        "maxLength": "El nombre no puede exceder 50 caracteres"
+      },
+      "timeLimit": {
+        "required": "El límite de tiempo es obligatorio",
+        "min": "El tiempo mínimo es 60 segundos",
+        "max": "El tiempo máximo es 3600 segundos"
+      }
+    },
+    "footer": {
+      "madeWith": "Hecho con ❤️ por",
+      "bugOrSuggestion": "¿Encontraste un bug o tienes una sugerencia?",
+      "reportOnGitHub": "Repórtalo en GitHub",
+      "personalProject": "Este es un proyecto personal. ¡Haré lo posible por responder a todas las issues y solicitudes de funcionalidades!"
+    }
+} 

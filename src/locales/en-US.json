@@ -1,0 +1,130 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "admin": "Administration",
+    "visualizer": "Visualizer",
+    "home": "Home"
+  },
+  "admin": {
+    "title": "Pasapalabra",
+    "subtitle": "Manage your games",
+    "games": "Games",
+    "newGame": "New Game",
+    "currentGame": "Current Game",
+    "noGames": "No games created",
+    "noGamesSubtitle": "Create your first game to start",
+    "loadingGames": "Loading games...",
+    "noGameSelected": "No game selected",
+    "noGameSelectedSubtitle": "Select a game from the list",
+    "howItWorks": "How does it work?",
+    "openVisualizer": "Open Visualizer"
+  },
+  "game": {
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "finished": "Finished"
+    },
+    "actions": {
+      "start": "Start",
+      "pause": "Pause",
+      "continue": "Continue",
+      "finish": "Finish",
+      "openVisualizer": "Open Visualizer"
+    },
+    "info": {
+      "time": "Time",
+      "finalScore": "Final Score",
+      "score": "Score"
+    },
+    "control": {
+      "title": "Game Control",
+      "timeRemaining": "Time Remaining",
+      "status": "Status",
+      "noGameSelected": "No game selected",
+      "noGameSelectedSubtitle": "Select a game to control",
+      "alphabetRing": "Alphabet Ring",
+      "currentLetter": "Current Letter",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "pasapalabra": "Pasapalabra",
+      "nextLetterHelp": "The next letter is advanced in a circular order."
+    }
+  },
+  "modal": {
+    "createGame": {
+      "title": "Create New Game",
+      "name": "Game Name",
+      "namePlaceholder": "Ex: Julia's Game",
+      "timeLimit": "Time Limit (seconds)",
+      "timeLimitPlaceholder": "300",
+      "timeLimitHelp": "Minimum: 60s, Maximum: 3600s (1 hour)",
+      "scoringSystem": "Scoring System",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "pasapalabra": "Pasapalabra",
+      "create": "Create Game",
+      "creating": "Creating..."
+    }
+  },
+  "info": {
+    "title": "How does Pasapalabra work?",
+    "objective": "Pasapalabra is a word game where you must answer questions that start with each letter of the Spanish alphabet.",
+    "gameFlow": {
+      "title": "Game Flow:",
+      "step1": "1. Create a new game from the administration panel",
+      "step2": "2. Configure the name and time limit",
+      "step3": "3. Click 'Start' to begin",
+      "step4": "4. Click on any letter in the alphabet ring",
+      "step5": "5. Mark the answer as correct, incorrect, or pasapalabra",
+      "step6": "6. The game ends when the alphabet is completed or time runs out"
+    },
+    "letterStates": {
+      "title": "Letter States:",
+      "correct": "Correct: Positive points",
+      "incorrect": "Incorrect: Negative points",
+      "pasapalabra": "Pasapalabra: No points"
+    },
+    "features": {
+      "title": "Main Features:",
+      "scoring": "Configurable scoring system",
+      "timer": "Customizable timer",
+      "sync": "Real-time synchronization between tabs",
+      "responsive": "Responsive design for all devices",
+      "persistence": "Data persistence between sessions"
+    },
+    "usage": {
+      "title": "Usage Tips:",
+      "streaming": "For streaming: Open the visualizer and capture the window",
+      "sync": "Synchronization: Changes are automatically reflected in all open tabs of the same browser"
+    }
+  },
+      "validation": {
+      "gameName": {
+        "required": "Game name is required",
+        "minLength": "Name must be at least 3 characters",
+        "maxLength": "Name cannot exceed 50 characters"
+      },
+      "timeLimit": {
+        "required": "Time limit is required",
+        "min": "Minimum time is 60 seconds",
+        "max": "Maximum time is 3600 seconds"
+      }
+    },
+    "footer": {
+      "madeWith": "Made with ❤️ by",
+      "bugOrSuggestion": "Found a bug or have a suggestion?",
+      "reportOnGitHub": "Report it on GitHub",
+      "personalProject": "This is a personal project. I'll do my best to respond to all issues and feature requests!"
+    }
+} 
