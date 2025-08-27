@@ -47,4 +47,8 @@ All notable changes to this project will be documented in this file.
 - localStorage synchronization only works between tabs of the same browser
 - For streaming software integration, use "Window Capture" instead of "Browser Source"
 
+### License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), which allows free use and modification for non-commercial purposes while requiring proper attribution.
+
 ---

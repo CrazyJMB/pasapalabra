@@ -127,7 +127,16 @@ src/
 
 ## 📄 License
 
-This project is under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+**What this means:**
+
+- ✅ **Free to use** for personal, educational, and non-profit purposes
+- ✅ **Free to modify** and adapt for your own projects
+- ✅ **Free to share** with proper attribution
+- ❌ **Not for commercial use** (business, selling, profit generation)
+
+See the [LICENSE](LICENSE) file for full details and terms.
 
 ## 📝 Changelog
 
